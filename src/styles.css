@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+html, body{
+    height:100%;
+    width: 100%;
+    font-family: Oswald !important;
+}
+a{text-decoration: none !important;}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+}
+.navbar-nav > li {
+    padding:15px 0;
+    display: block;
+}
+.navbar{border:none; margin-bottom: 0px !important;}
+.navbar-brand {
+    height: auto;
+    padding: 22px 15px;
+}
+.headerCont{border-bottom:2px solid #ddd;}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0997da !important;
+}
+
+.navbar-default .navbar-toggle {border-color: #fff !important;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ffffff !important;
+}
+
+.container-fluids{width: calc(100% - 130px); margin: 0 auto;}
+.tabsBox .mentorImg{margin:5px 0;}
+.tabsBox .mentorImg a{display:block;}
+.mobileView{display: none;}
+.desktopView{display: block;}
+.mentorbtn{margin-top:15px;}
+
+@media (max-width: 500px) {
+    .navbar-toggle {
+        
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: -13px !important;;
+       
+    }
+    .navbar-brand {
+        padding: 15px 0px !important;
+        width: 79% !important;
+    }
+    .dashboardUserDetails .media .media-middle .media-object {
+        width: 43px !important;
+    }
+}
+@media (max-width: 768px) {
+    .desktopView{display: none;}
+    .mobileView{display:block;}
+    .mobileView .panel-heading {padding: 15px;}
+    .mobileView .panel-default .panel-heading {cursor: pointer !important; color: #fff !important; background-color: #1976d2 !important;;} 
+    .mobileView .panel-title>a{display: block; cursor: pointer !important;}
+    
+    .navbar-brand {padding: 15px 0px !important; }
+    .navbar-brand>img {width: 70%;}
+    .dashboardCont {border-right: 0px solid #ccc !important;}
+
+    .dashboardUserDetails .media .media-middle .media-object{width:70px }
+    .dashboardUserDetails .media-heading { font-size: 13px;}
+    .progress{width: 100% !important;}
+    .progressCont h2{font-size:20px;}
+    .userPhoto img {  height: 99px !important;; width: 99px !important;;}
+    .navbar-nav > li {padding: 0px !important; }
+    .mentorBox .nameOfUniversity {font-size: 16px !important;}
+    .mentorImgDetail{width: 30px !important;; height: 30px !important;}
+    .scoreBoard p{ font-size: 12px !important;}
+    
+}

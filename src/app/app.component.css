@@ -1,0 +1,17 @@
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #e7e7e7;
+}
+.navbar-nav > li {
+    padding:15px 0;
+    display: block;
+}
+.navbar{border:none}
+.navbar-brand {
+    height: auto;
+    padding: 22px 15px;
+}
+.headerCont{border-bottom:2px solid #ddd;}
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
